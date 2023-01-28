@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #d8d8d8;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+}
+
+header,
+main {
+  width: 90%;
+  max-width: 450px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0.7rem;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.task-description {
+  width: 85%;
+  border: none;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.create-task-btn {
+  background-color: #e95678;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.4em;
+  font-weight: 700;
+}
+
+main section {
+  border-bottom: 2px solid #d8d8d8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.task-title {
+  color: #227880;
+  width: 90%;
+  margin: 0 0.8rem;
+}
+
+.checked-task {
+  opacity: 0.45;
+  text-decoration: line-through;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.delete-button {
+  margin-top: 10px;
+  max-width: 60%;
+  align-self: center;
+
+  background-color: #24b0bc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.7em;
+}
+.no-tasks {
+  align-self: center;
+  font-weight: 700;
+}
+
+.no-display {
+  display: none;
+}
+
+.checkbox {
+  width: 30px;
+  height: 30px;
+  border:#24b0bc 3px solid;
+  border-radius: 30%;
+}
